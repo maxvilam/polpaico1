@@ -1,0 +1,58 @@
+.malla {
+  stroke: rgb(73, 73, 73);
+  stroke-width: 20;
+  stroke-linecap: round;
+}
+.botones{
+    margin-right: 10px;
+    margin-top: 400px;
+}
+.ubicarboton2{
+    display: flex;
+    justify-content:right;
+    
+}
+
+.fondosvg {
+  background-image: url("./img/harnero_1246x697.jpg");
+  
+  background-repeat: no-repeat;
+  background-size:contain;
+  min-width: 100%;
+  min-height: 100%;
+}
+.circlered {
+  fill: red;
+  stroke: black;
+  stroke-width: 2;
+}
+.circlegreen {
+  fill: green;
+  stroke: black;
+  stroke-width: 2;
+}
+.circlewhite {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
+*circle {
+  stroke: black;
+  stroke-width: 2;
+}
+#harnero {
+  animation: animacion ease-in;
+  -webkit-animation: animacion ease-in;
+}
+@keyframes animacion {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.fase{
+ display: flex;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
